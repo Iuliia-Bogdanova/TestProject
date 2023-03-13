@@ -18,13 +18,9 @@ export default function App() {
 
   return (
     <div className="container">
-      <button className="btn" onClick={handlePrev}>
-        prev
-      </button>
+      <button className="btn" onClick={handlePrev}>previous</button>
       <Cards words={words[count]} count={count} key={count} />
-      <button className="btn" onClick={handleNext}>
-        next
-      </button>
+      <button className="btn" onClick={handleNext}>next</button>
     </div>
   );
 }
