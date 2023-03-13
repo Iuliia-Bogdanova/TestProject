@@ -9,12 +9,23 @@ export default function App() {
 
   function handlePrev(){
     setCount(count - 1)
+
+      if (count - 1 < 0) {
+        count = setCount.length;
+      } else {
+        count--;
+      }
   }
 
   function handleNext() {
     setCount(count + 1);
+
+      if (count + 1 == setCount.length) {
+        count = 0;
+      } else {
+        count++;
+      }
   }
-  console.log(words [count]);
 
   return (
     <div className="container">
