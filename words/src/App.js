@@ -5,13 +5,13 @@ import './App.css'
 
 
 export default function App() {
-  const [count,setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
-  function handlePrev(){
+  function handlePrev() {
     setCount(count - 1)
 
-      if (count - 1 < 0) {
-        count = setCount.length;
+      if (count - 1 == 0) {
+        count = count.length;
       } else {
         count--;
       }
@@ -20,7 +20,7 @@ export default function App() {
   function handleNext() {
     setCount(count + 1);
 
-      if (count + 1 == setCount.length) {
+      if (count + 1 == count.length) {
         count = 0;
       } else {
         count++;
