@@ -5,33 +5,42 @@ import './App.css'
 
 
 export default function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
 
   function handlePrev() {
-    setCount(count - 1)
-
+    
       if (count - 1 == 0) {
-        count = count.length;
-      } else {
-        count--;
-      }
+        setCount(words.length - 1)
+        return
+      } 
+        setCount(count-1)
+
   }
 
   function handleNext() {
-    setCount(count + 1);
 
-      if (count + 1 == count.length) {
-        count = 0;
-      } else {
-        count++;
-      }
+      if (count == words.length - 1) {
+        setCount(1);
+        return
+      } 
+        setCount(count+1);
+    
   }
 
   return (
     <div className="container">
-      <button className="btn" onClick={handlePrev}>previous</button>
+      
+      
+      <button className="btn" onClick={handlePrev}>
+        previous
+      </button>
+
       <Cards words={words[count]} count={count} key={count} />
-      <button className="btn" onClick={handleNext}>next</button>
+
+      <button className="btn" onClick={handleNext}>
+        next
+      </button>
+      
     </div>
   );
 }
