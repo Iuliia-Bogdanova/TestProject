@@ -1,3 +1,11 @@
+// @font-face {
+// 	font-family: 'Philosopher', sans-serif;
+// 	src: url('./../fonts/Philosopher-Regular.ttf') format('truetype');
+// 	font-weight: 400;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
 html {
 	scroll-behavior: smooth;
 }
@@ -6,4 +14,26 @@ body {
 	background-color: var(--page-bg);
 	color: var(--text-color);
     font-family: var(--font-main);
+	font-size: 20px;
 }
+
+a:hover {
+	opacity: .7;
+	transition: all .3s ease-in-out;
+}
+
+.btn__promo {
+	width: 196px;
+	height: 54px;
+	border-radius: 30px;
+	font-size: 16px;
+
+	&:hover {
+		opacity: .7;
+		transition: all .3s ease-in-out;
+	}
+}
+
+
+
+
