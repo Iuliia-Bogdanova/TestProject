@@ -17,6 +17,22 @@ body {
 	font-size: 20px;
 }
 
+body::-webkit-scrollbar {
+    background: var(--page-bg);
+    width: 8px;
+    height: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border: 1px solid var(--thumb-color);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--thumb-color);
+}
+
+
 a:hover {
 	opacity: .7;
 	transition: all .3s ease-in-out;

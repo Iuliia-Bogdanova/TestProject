@@ -1,10 +1,55 @@
 .header {
 	margin-top: 28px;
+	position: relative;
 
-	&__row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+	&::before {
+		content: "";
+		position: absolute; 
+		top: -28px;
+		left: 40px;
+		width: 400px;
+		height: 1530px;
+		background-image: url("./../img/bg/bg_astro-left_01.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&::after {
+		content: "";
+		position: absolute; 
+		top: -28px;
+		right: 26px;
+		width: 640px;
+		height: 1220px;
+		background-image: url("./../img/bg/bg_astro-right_01.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+.logo,
+.nav__list,
+.btn__promo {
+	z-index: 1;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	position: relative;
+
+		&::before {
+		content: "";
+		position: absolute; 
+		top: 30px;
+		left: 0;
+		width: 540px;
+		height: 748px;
+		background-image: url("./../img/bg/bg_stars-left_01.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 
