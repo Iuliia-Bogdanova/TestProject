@@ -37,6 +37,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	// gap: 213px;
 
 	position: relative;
 
@@ -51,6 +52,10 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+}
+
+.logo-tabl {
+	display: none;
 }
 
 .nav__list {
