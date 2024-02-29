@@ -1,0 +1,52 @@
+@media (max-width: 1439px) and (min-width: 930px) {
+	.header {
+        margin-top: 25px;
+
+        &::before { 
+            top: -25px;
+            left: 20px;
+            width: 400px;
+            height: 1520px;
+        }
+
+        &::after { 
+            top: -132px;
+            right: -64px;
+            width: 440px;
+            height: 920px;
+        }
+    }
+
+    .header__nav {
+        font-size: 14px;
+
+            &::before { 
+            top: 52px;
+            left: 16px;
+            width: 320px;
+            height: 466px;
+        }
+    }
+
+    .logo-desk {
+        display: none;
+    }
+
+    .logo-tabl {
+        display: block;
+    }
+
+    .btn__promo {
+        width: 149px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .nav__list {
+        gap: 16px;
+    }
+
+    li {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,54 @@
+@media (max-width: 929px) {
+	.header {
+        margin-top: 12px;
+
+        &::before { 
+            top: -25px;
+            left: 20px;
+            width: 400px;
+            height: 1520px;
+        }
+
+        &::after { 
+            top: -132px;
+            right: -64px;
+            width: 440px;
+            height: 920px;
+        }
+    }
+
+    .header__nav {
+            &::before { 
+                display: none;
+            // top: 52px;
+            // left: 16px;
+            // width: 320px;
+            // height: 466px;
+        }
+    }
+
+    .header__nav > :nth-child(3) {
+        margin-left: 4em; 
+        margin-right: 1em; 
+    }
+
+    .logo-desk {
+        display: block;
+        width: 84px;
+        height: 30px;
+    }
+
+    .btn__promo {
+        width: 139px;
+        height: 34px;
+        font-size: 13.5px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__mobile-nav {
+        display: block;
+    }
+}

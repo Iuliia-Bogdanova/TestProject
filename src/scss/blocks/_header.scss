@@ -12,6 +12,7 @@
 		background-image: url("./../img/bg/bg_astro-left_01.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
+		box-shadow: -20px -1px 20px 0px var(--shadow-color);
 	}
 
 	&::after {
@@ -24,12 +25,14 @@
 		background-image: url("./../img/bg/bg_astro-right_01.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
+		box-shadow: 20px -1px 20px 0px var(--shadow-color);
 	}
 }
 
 .logo,
 .nav__list,
-.btn__promo {
+.btn__promo,
+.nav__mobile-nav {
 	z-index: 1;
 }
 
@@ -37,8 +40,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	// gap: 213px;
-
 	position: relative;
 
 		&::before {
@@ -72,4 +73,8 @@ li {
 
 .btn__promo-blue {
 	background-color: #5E44FC;
+}
+
+.nav__mobile-nav {
+	display: none;
 }
