@@ -1,13 +1,11 @@
 /* desktop */
-@media (min-width: 1440px) {
-	.container {
+.container {
 		width: 1296px;
 		margin: 0 auto;
 	}
-}
 
 /* tablet */
-@media (max-width: 1439px) and (min-width: 930px) {
+@media (max-width: 1439px) {
 	.container {
 		width: 720px;
 		margin: 0 auto;
@@ -15,7 +13,7 @@
 }
 
 /* mobile */
-@media (max-width: 929px) {
+@media (max-width: 930px) {
 	.container {
 		width: 326px;
 		margin: 0 auto;
