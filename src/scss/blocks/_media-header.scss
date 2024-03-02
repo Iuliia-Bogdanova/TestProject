@@ -54,7 +54,7 @@
 
 @media (max-width: 930px) {
 	.header {
-        margin-top: 12px;
+        margin-top: 0;
 
         &::before { 
             top: -50px;
@@ -103,4 +103,6 @@
     .nav__mobile-nav {
         display: block;
     }
+
+    
 }
