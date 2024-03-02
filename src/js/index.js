@@ -3,13 +3,17 @@ const modalClose = document.querySelector('#modalClose');
 const mobileNav = document.querySelector('.mobile-nav');
 
 function openMenu() {
-    mobileNav.style.display = 'block'; 
-    modalOpen.style.display = 'none'; 
+    setTimeout(() => {
+        mobileNav.classList.add("open");
+        modalOpen.style.display = "none";
+    }, 200);
 }
 
 function closeMenu() {
-    mobileNav.style.display = 'none'; 
-    modalOpen.style.display = 'block'; 
+    setTimeout(() => {
+        mobileNav.classList.remove("open");
+        modalOpen.style.display = "block";
+    }, 200);
 }
 
 modalOpen.addEventListener('click', openMenu);
