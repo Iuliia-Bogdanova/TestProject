@@ -19,6 +19,12 @@
         }
     }
 
+    .logo {
+        background-image: url('./../img/icons/logo_tabl.svg');
+        width: 111px;
+        height: 40px;
+    }
+
     .header__nav {
         font-size: 14px;
 
@@ -29,15 +35,6 @@
             height: 466px;
             background-image: url("./../img/bg/tabl-bg_stars-left_01.svg");
         }
-    }
-
-    .logo-desk, 
-    .logo-mob {
-        display: none;
-    }
-
-    .logo-tabl {
-        display: block;
     }
 
     .btn__promo {
@@ -76,6 +73,12 @@
         }
     }
 
+    .logo {
+        background-image: url('./../img/icons/logo_mob.svg');
+        width: 84px;
+        height: 30px;
+    }
+
     .header__nav {
         &::before { 
             content: none;
@@ -85,14 +88,6 @@
     .header__nav > :nth-child(3) {
         margin-left: 4em; 
         margin-right: 1em; 
-    }
-
-    .logo-tabl {
-        display: none;
-    }
-
-    .logo-mob {
-        display: block;
     }
 
     .btn__promo {

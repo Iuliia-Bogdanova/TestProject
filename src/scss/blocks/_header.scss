@@ -34,6 +34,14 @@
 	z-index: 1;
 }
 
+.logo {
+	background-image: url('./../img/icons/logo.svg');
+	width: 122px;
+	height: 44px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .header__nav {
 	display: flex;
 	justify-content: space-between;
@@ -51,11 +59,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-}
-
-.logo-tabl,
-.logo-mob {
-	display: none;
 }
 
 .nav__list {
