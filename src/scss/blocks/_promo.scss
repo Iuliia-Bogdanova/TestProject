@@ -1,6 +1,6 @@
 .main {
     position: relative;
-    margin: 57px 0;
+    margin: 60px 0;
 
     &::before {
         content: "";
@@ -9,24 +9,10 @@
         left: 31%;
         width: 986px;
         height: 1300px;
-        // transform: rotate(1deg);
+        transform: rotate(2deg);
         background-image: url("./../img/bg/circle-desk.svg");
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-        &::after {
-        content: "";
-        position: absolute;
-        top: -28px;
-        left: 52%;
-        width: 657px;
-        height: 673px;
-        transform: rotate(1deg);
-        background-image: url('./../img/bg/promo_screen-desk.svg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 1;
     }
 }
 
@@ -37,13 +23,18 @@
     gap: 112px;
 }
 
+.promo-items {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
 .promo__ticket {
     display: flex;
     flex-direction: column;
     position: relative;
     justify-content: space-between;
     margin-top: 84px;
-    // gap: 28px;
     z-index: 2;
 }
 
@@ -75,6 +66,24 @@ p {
 .btn__promo-green {
     background: var(--green-btn-color);
     margin-left: -110px;
+    width: 196px;
+    height: 54px;
+}
+
+.promo__screen {
+    &::after {
+        content: "";
+        position: absolute;
+        top: -28px;
+        left: 52%;
+        width: 657px;
+        height: 673px;
+        transform: rotate(1deg);
+        background-image: url("./../img/bg/promo_screen-desk.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
 }
 
 .download-btns {
@@ -87,3 +96,89 @@ p {
     height: 82px;
 }
 
+.btn-app {
+    background-image: url("./../img/icons/App_Store-desk.svg");
+}
+
+.btn-google {
+    background-image: url("./../img/icons/Google_Play-desk.svg");
+}
+
+@media (max-width: 1439px) {
+    .main {
+        margin: 0;
+
+        &::before {
+            top: -100px;
+            left: 39%;
+            width: 486px;
+            height: 940px;
+            background-image: url("./../img/bg/circle-tabl.svg");
+        }
+    }
+
+    .promo__wrapper {
+        gap: 30px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .solar-img {
+        width: 131px;
+        height: 119px;
+        margin-left: -24px;
+        background-image: url("./../img/bg/solar_btn-tabl.svg");
+    }
+
+    .promo__screen {
+        &::after {
+            top: 76px;
+            left: 54%;
+            width: 346px;
+            height: 470px;
+            background-image: url("./../img/bg/promo_screen-tabl.svg");
+        }
+    }
+
+    .download-btns {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .download-btn {
+        width: 196px;
+        height: 60px;
+    }
+
+    .btn-app {
+        background-image: url("./../img/icons/App_Store-tabl.svg");
+    }
+
+    .btn-google {
+        background-image: url("./../img/icons/Google_Play-tabl.svg");
+    }
+}
+
+@media (max-width: 930px) {
+    .main {
+        margin: 0 auto;
+
+        &::before {
+            content: none;
+        }
+
+        &::after {
+            top: 576px;
+            left: 0;
+            width: 346px;
+            height: 470px;
+            background-image: url("./../../img/bg/promo_screen-mob.svg");
+        }
+    }
+}
