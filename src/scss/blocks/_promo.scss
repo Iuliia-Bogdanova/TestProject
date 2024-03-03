@@ -1,0 +1,79 @@
+.main {
+    position: relative;
+    margin: 57px 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -138px;
+        left: 31%;
+        width: 986px;
+        height: 1300px;
+        // transform: rotate(1deg);
+        background-image: url("./../img/bg/circle-desk.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+        &::after {
+        content: "";
+        position: absolute;
+        top: -28px;
+        left: 52%;
+        width: 657px;
+        height: 673px;
+        transform: rotate(1deg);
+        background-image: url('./../img/bg/promo_screen-desk.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+}
+
+.promo__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.promo__ticket {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 68px;
+    gap: 28px;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 68px;
+    line-height: 105%;
+}
+
+p {
+    line-height: 140%;
+}
+
+.btn__promo-solar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // gap: -80px;
+}
+
+.solar-img {
+    width: 163px;
+    height: 130px;
+    margin-left: -60px;
+    background-image: url("./../img/bg/solar_btn-desk.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn__promo-green {
+    background: var(--green-btn-color);
+    margin-left: -100px;
+}
+

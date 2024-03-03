@@ -25,7 +25,8 @@ body::-webkit-scrollbar-thumb:hover {
 	border: none;
 }
 
-a:hover {
+a:hover,
+button:hover {
 	opacity: .7;
 	transition: all .3s ease-in-out;
 }
@@ -45,6 +46,10 @@ a:hover {
 .nav-btn {
 	width: 54px;
 	height: 54px;
+}
+
+.accent {
+	color: var(--accent-color);
 }
 
 
