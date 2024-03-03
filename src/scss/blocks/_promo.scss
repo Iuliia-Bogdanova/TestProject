@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
+    justify-content: space-between;
 }
 
 .promo__ticket {
@@ -167,18 +168,72 @@ p {
 
 @media (max-width: 930px) {
     .main {
-        margin: 0 auto;
+        margin: 0 auto 50px;
 
         &::before {
             content: none;
         }
+    }
+
+    .promo-items {
+        flex-direction: column;
+    }
+
+    .promo__ticket {
+        text-align: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        padding: 20px 0 14px;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    .btn__promo-green {
+        width: 173px;
+        height: 48px;
+        margin-left: -76px;
+        
+    }
+
+    .solar-img {
+        width: 120px;
+        height: 96px;
+        margin-left: -60px;
+        background-image: url("./../img/bg/solar_btn-mob.svg");
+    }
+
+    .promo__screen {
+        width: 340px;
+        height: 368px;
+        transform: rotate(-2deg);
+        background-image: url("./../img/bg/promo_screen-mob.svg");
 
         &::after {
-            top: 576px;
-            left: 0;
-            width: 346px;
-            height: 470px;
-            background-image: url("./../../img/bg/promo_screen-mob.svg");
+            content: none;
         }
+    }
+
+    .download-btns {
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .download-btn {
+        width: 158px;
+        height: 54px;
+    }
+
+    .btn-app {
+        background-image: url("./../../img/icons/App_Store-mob.svg");
+    }
+
+    .btn-google {
+        background-image: url("./../../img/icons/Google_Play-mob.svg");
     }
 }

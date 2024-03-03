@@ -9,6 +9,7 @@
     top: 0;
     right: 0;
     display: none;
+    
 }
 
 .mobile-nav.open {
@@ -31,4 +32,5 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: var(--menu-bg);
+    z-index: 10;
 }
