@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 150px;
+    gap: 112px;
 }
 
 .promo__ticket {
@@ -42,8 +42,8 @@
     flex-direction: column;
     position: relative;
     justify-content: space-between;
-    margin-top: 68px;
-    gap: 28px;
+    margin-top: 84px;
+    // gap: 28px;
     z-index: 2;
 }
 
@@ -53,6 +53,7 @@ h1 {
 }
 
 p {
+    padding-top: 28px;
     line-height: 140%;
 }
 
@@ -60,13 +61,12 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    // gap: -80px;
 }
 
 .solar-img {
     width: 163px;
     height: 130px;
-    margin-left: -60px;
+    margin-left: -54px;
     background-image: url("./../img/bg/solar_btn-desk.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,6 +74,16 @@ p {
 
 .btn__promo-green {
     background: var(--green-btn-color);
-    margin-left: -100px;
+    margin-left: -110px;
+}
+
+.download-btns {
+    display: flex;
+    gap: 18px;
+}
+
+.download-btn {
+    width: 242px;
+    height: 82px;
 }
 
