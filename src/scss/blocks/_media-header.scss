@@ -35,6 +35,10 @@
             height: 466px;
             background-image: url("./../img/bg/tabl-bg_stars-left_01.svg");
         }
+
+        &::after {
+            display: none;
+        }
     }
 
     .btn__promo {

@@ -59,6 +59,19 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
+	&::after {
+		content: "";
+		position: absolute; 
+		top: 8px;
+		right: -38px;
+		width: 719px;
+		height: 719px;
+		background-image: url("./../img/bg/bg_rect-green-right_01.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 1;
+	}
 }
 
 .nav__list {
