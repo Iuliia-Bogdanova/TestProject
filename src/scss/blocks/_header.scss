@@ -100,15 +100,15 @@ li {
 
         &::before { 
             top: -25px;
-            left: 0;
+            left: -36px;
             width: 340px;
-            height: 1365px;
+            height: 1553px;
             background-image: url("./../img/bg/tabl-bg_astro-left_01.svg");
         }
 
         &::after { 
             top: -30px;
-            right: 0;
+            right: -36px;
             width: 280px;
             height: 1007px;
             background-image: url("./../img/bg/tabl-bg_astro-right_01.svg");

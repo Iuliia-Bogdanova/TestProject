@@ -93,7 +93,7 @@ h1 {
     gap: 18px;
     z-index: 2;
 
-    &::after {
+    &::before {
         content: "";
         position: absolute; 
         top: 364px;
@@ -165,6 +165,28 @@ h1 {
     .download-btns {
         flex-direction: column;
         gap: 8px;
+
+        &::before {
+            top: 740px;
+            left: -36px;
+            width: 311px;
+            height: 331px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute; 
+            top: 154px;
+            right: -36px;
+            width: 321px;
+            height: 365px;
+            transform: rotate(180deg);
+            background-image: url('./../img/bg/bg_linear-top_astro-right_03.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            // border: 1px solid red;
+        }
     }
 
     .download-btn {

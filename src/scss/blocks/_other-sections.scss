@@ -117,3 +117,193 @@
 		background-size: cover;
 	}
 }
+
+@media (max-width: 1439px) {
+	.ph-items {
+
+		&::before {
+			top: 1070px;
+			right: 0;
+			width: 344px;
+			height: 109px;
+			background-image: url("./../img/icons/ph-tabl.svg");
+		}
+
+		&::after {
+			top: 93px;
+			right: -36px;
+			width: 410px;
+			height: 1553px;
+			background-image: url("./../img/bg/tabl-bg_astro-right_02.svg");
+
+			// border: 1px solid red;
+		}
+	}
+
+	.ph-items__linears {
+
+		&::before {
+			content: "";
+			position: absolute; 
+			top: 90px;
+			right: -36px;
+			width: 411px;
+			height: 293px;
+			background-image: url("./../img/bg/tabl-bg_linear-top_astro-right_02.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 1;
+
+			// border: 1px solid red;
+		}
+
+		&::after {
+			content: "";
+			position: absolute; 
+			top: 1360px;
+			right: -36px;
+			width: 411px;
+			height: 293px;
+			transform: rotate(180deg);
+			background-image: url("./../img/bg/tabl-bg_linear-top_astro-right_02.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 1;
+
+			// border: 1px solid green;
+		}
+	}
+
+	.ph-items__ellipses {
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute; 
+			top: 610px;
+			right: 96px;
+			width: 428px;
+			height: 428px;
+			background-image: url("./../img/icons/tabl-ellips_ph-left.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 1;
+		}
+
+		&::after {
+			content: "";
+			position: absolute; 
+			top: 820px;
+			right: -120px;
+			width: 428px;
+			height: 428px;
+			background-image: url("./../img/icons/tabl-ellips_ph-left.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 1;
+		}
+	}
+
+	.ph-items__stars {
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute; 
+			top: 776px;
+			left: 76px;
+			width: 247px;
+			height: 402px;
+			background-image: url("./../img/icons/tabl-stars_ph-left.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 1;
+		}
+
+		&::after {
+			content: "";
+			position: absolute; 
+			top: 700px;
+			right: 10px;
+			width: 411px;
+			height: 318px;
+			background-image: url("./../img/icons/tabl-stars_ph-right.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: 1;
+		}
+	}
+
+	.stars-item__bg-top {
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute; 
+			top: -1120px;
+			left: -36px;
+			width: 335px;
+			height: 1139px;
+			// transform: rotateY(180deg);
+			background-image: url("./../img/bg/tabl-bg_astro-left_02.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
+
+			// border: 1px solid red;
+		}
+	}
+
+	.stars-items {
+		height: 900px;
+
+		&::before {
+			top: 159px;
+			left: -36px;
+			width: 339px;
+			height: 729px;
+			background-image: url("./../img/bg/tabl-bg_astro-left_03.svg");
+			
+			// border: 1px solid red;
+		}
+
+		&::after {
+			top: -610px;
+			right: -36px;
+			width: 345px;
+			height: 1180px;
+			background-image: url("./../../img/bg/bg_astro\ 01\ right.jpg");
+
+			// border: 1px solid red;
+		}
+	}
+
+	.stars-items__linears {
+
+		&::before {
+			content: none;
+		}
+
+		&::after {
+			content: none;
+		}
+	}
+
+	.stars-items__icons {
+    position: relative;
+
+		&::before {
+			content: none;
+		}
+
+		&::after {
+			top: 130px;
+			left: 32%;
+			width: 384px;
+			height: 248px;
+			background-image: url("./../../img/icons/stars-tabl.svg");
+			z-index: 1;
+
+			// border: 1px solid red;
+		}
+	}
+}
