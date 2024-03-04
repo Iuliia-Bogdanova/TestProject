@@ -1,0 +1,92 @@
+.ph-items {
+    height: 1553px;
+    margin-top: 400px;
+    position: relative;
+
+    &::before {
+		content: "";
+		position: absolute; 
+		top: 1256px;
+		right: 112px;
+		width: 522px;
+		height: 179px;
+		background-image: url("./../img/icons/ph-desk.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+        z-index: 1;
+	}
+
+    &::after {
+		content: "";
+		position: absolute; 
+		top: 54px;
+		right: -67px;
+		width: 410px;
+		height: 1553px;
+		background-image: url("./../img/bg/bg_astro-right_02.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-shadow: 20px 0 30px 0 var(--shadow-color);
+	}
+}
+
+.stars-items {
+    height: 1553px;
+    margin-top: 710px;
+    position: relative;
+
+    &::before {
+		content: "";
+		position: absolute; 
+		top: 0;
+		left: -67px;
+		width: 459px;
+		height: 1553px;
+		background-image: url("./../img/bg/bg_astro-left_04.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+        box-shadow: -20px 0 30px 0 var(--shadow-color);
+	}
+
+    &::after {
+		content: "";
+		position: absolute; 
+		top: 20px;
+		right: -67px;
+		width: 400px;
+		height: 1203px;
+		background-image: url("./../img/bg/bg_astro-right_03.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-shadow: 20px 0 30px 0 var(--shadow-color);
+	}
+}
+
+.stars-items__icons {
+    position: relative;
+
+    &::before {
+		content: "";
+		position: absolute; 
+		top: 950px;
+		left: -67px;
+		width: 811px;
+		height: 500px;
+		background-image: url("./../img/icons/linear_bg.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+    &::after {
+		content: "";
+		position: absolute; 
+		top: 650px;
+		left: 43%;
+		width: 494px;
+		height: 318px;
+		background-image: url("./../img/icons/stars-desk.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+}

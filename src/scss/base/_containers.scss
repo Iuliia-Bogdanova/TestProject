@@ -1,8 +1,12 @@
 /* desktop */
 .container {
-		width: 1296px;
-		margin: 0 auto;
-	}
+	width: 1296px;
+	margin: 0 auto;
+}
+
+section {
+	margin-bottom: 60px;
+}
 
 /* tablet */
 @media (max-width: 1439px) {
