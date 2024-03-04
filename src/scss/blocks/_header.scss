@@ -1,4 +1,4 @@
-.header {
+.header-bg {
 	margin-top: 28px;
 	position: relative;
 
@@ -97,7 +97,7 @@ li {
 }
 
 @media (max-width: 1439px) {
-	.header {
+	.header-bg {
         margin-top: 25px;
 
         &::before { 
@@ -155,7 +155,7 @@ li {
 }
 
 @media (max-width: 930px) {
-	.header {
+	.header-bg {
         margin-top: 0;
 
         &::before { 
