@@ -26,7 +26,6 @@
 		background-image: url("./../img/bg/bg_astro-right_02.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		box-shadow: 20px 0 30px 0 var(--shadow-color);
 	}
 }
 
@@ -45,7 +44,6 @@
 		background-image: url("./../img/bg/bg_astro-left_04.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
-        box-shadow: -20px 0 30px 0 var(--shadow-color);
 	}
 
     &::after {
@@ -58,8 +56,38 @@
 		background-image: url("./../img/bg/bg_astro-right_03.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		box-shadow: 20px 0 30px 0 var(--shadow-color);
 	}
+}
+
+.stars-items__linears {
+    position: relative;
+
+    &::before {
+		content: "";
+		position: absolute; 
+		top: 0;
+		right: -67px;
+		width: 542px;
+		height: 453px;
+		background-image: url("./../img/bg/bg_linear-top_astro-right_03.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+        z-index: 1;
+	}
+
+    &::after {
+        content: "";
+        position: absolute; 
+        top: 780px;
+        right: -67px;
+        width: 542px;
+        height: 453px;
+        transform: rotate(180deg);
+        background-image: url('./../img/bg/bg_linear-top_astro-right_03.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
 }
 
 .stars-items__icons {
@@ -87,6 +115,5 @@
 		background-image: url("./../img/icons/stars-desk.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		
 	}
 }

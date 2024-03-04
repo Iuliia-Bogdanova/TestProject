@@ -1,6 +1,6 @@
 .main {
     position: relative;
-    margin: 60px 0 180px;
+    margin: 60px 0 130px;
 
     &::before {
         content: "";
@@ -89,7 +89,22 @@ h1 {
 
 .download-btns {
     display: flex;
+    position: relative;
     gap: 18px;
+    z-index: 2;
+
+    &::after {
+        content: "";
+        position: absolute; 
+        top: 364px;
+        left: -67px;
+        width: 542px;
+        height: 453px;
+        transform: rotate(180deg);
+        background-image: url('./../img/bg/bg_linear-top_astro-right_03.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .download-btn {
@@ -231,10 +246,10 @@ h1 {
     }
 
     .btn-app {
-        background-image: url("./../../img/icons/App_Store-mob.svg");
+        background-image: url("./../img/icons/App_Store-mob.svg");
     }
 
     .btn-google {
-        background-image: url("./../../img/icons/Google_Play-mob.svg");
+        background-image: url("./../img/icons/Google_Play-mob.svg");
     }
 }
