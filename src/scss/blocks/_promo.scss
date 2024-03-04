@@ -6,7 +6,7 @@
         content: "";
         position: absolute;
         top: -138px;
-        left: 31%;
+        left: 30%;
         width: 986px;
         height: 1300px;
         transform: rotate(2deg);
@@ -44,7 +44,7 @@ h1 {
     line-height: 105%;
 }
 
-p {
+.text {
     padding-top: 28px;
     line-height: 140%;
 }
@@ -76,7 +76,7 @@ p {
         content: "";
         position: absolute;
         top: -28px;
-        left: 52%;
+        left: 53%;
         width: 657px;
         height: 673px;
         transform: rotate(1deg);
@@ -126,7 +126,7 @@ p {
         font-size: 44px;
     }
 
-    p {
+    .text {
         font-size: 16px;
     }
 
@@ -180,6 +180,7 @@ p {
     }
 
     .promo__ticket {
+        margin-top: 48px;
         text-align: center;
         align-items: center;
     }
@@ -188,8 +189,8 @@ p {
         font-size: 36px;
     }
 
-    p {
-        padding: 20px 0 14px;
+    .text {
+        padding: 20px 0 8px;
         font-size: 14px;
         line-height: 130%;
     }
@@ -211,7 +212,7 @@ p {
     .promo__screen {
         width: 340px;
         height: 368px;
-        transform: rotate(-2deg);
+        margin: -20px 0 12px;
         background-image: url("./../img/bg/promo_screen-mob.svg");
 
         &::after {

@@ -6,7 +6,7 @@
 		content: "";
 		position: absolute; 
 		top: -28px;
-		left: -72px;
+		left: -67px;
 		width: 400px;
 		height: 1530px;
 		background-image: url("./../img/bg/bg_astro-left_01.svg");
@@ -19,7 +19,7 @@
 		content: "";
 		position: absolute; 
 		top: -28px;
-		right: -72px;
+		right: -67px;
 		width: 640px;
 		height: 1220px;
 		background-image: url("./../img/bg/bg_astro-right_01.svg");
@@ -103,15 +103,15 @@ li {
         &::before { 
             top: -25px;
             left: 0;
-            width: 320px;
+            width: 340px;
             height: 1365px;
             background-image: url("./../img/bg/tabl-bg_astro-left_01.svg");
         }
 
         &::after { 
-            top: -25px;
+            top: -30px;
             right: 0;
-            width: 321px;
+            width: 280px;
             height: 1007px;
             background-image: url("./../img/bg/tabl-bg_astro-right_01.svg");
         }
@@ -189,7 +189,7 @@ li {
 
     .header__nav > :nth-child(3) {
         margin-left: auto; 
-        margin-right: 1%; 
+        margin-right: 10px; 
     }
 
     .btn__promo {
