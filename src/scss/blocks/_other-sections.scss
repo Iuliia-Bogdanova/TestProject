@@ -122,7 +122,7 @@
 	.ph-items {
 
 		&::before {
-			top: 1070px;
+			top: 880px;
 			right: 0;
 			width: 344px;
 			height: 109px;
@@ -130,7 +130,7 @@
 		}
 
 		&::after {
-			top: 93px;
+			top: 80px;
 			right: -36px;
 			width: 410px;
 			height: 1553px;
@@ -140,47 +140,13 @@
 		}
 	}
 
-	.ph-items__linears {
-
-		&::before {
-			content: "";
-			position: absolute; 
-			top: 90px;
-			right: -36px;
-			width: 411px;
-			height: 293px;
-			background-image: url("./../img/bg/tabl-bg_linear-top_astro-right_02.svg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			z-index: 1;
-
-			// border: 1px solid red;
-		}
-
-		&::after {
-			content: "";
-			position: absolute; 
-			top: 1360px;
-			right: -36px;
-			width: 411px;
-			height: 293px;
-			transform: rotate(180deg);
-			background-image: url("./../img/bg/tabl-bg_linear-top_astro-right_02.svg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			z-index: 1;
-
-			// border: 1px solid green;
-		}
-	}
-
 	.ph-items__ellipses {
 		position: relative;
 
 		&::before {
 			content: "";
 			position: absolute; 
-			top: 610px;
+			top: 460px;
 			right: 96px;
 			width: 428px;
 			height: 428px;
@@ -188,12 +154,14 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			z-index: 1;
+
+			// border: 1px solid green;
 		}
 
 		&::after {
 			content: "";
 			position: absolute; 
-			top: 820px;
+			top: 620px;
 			right: -120px;
 			width: 428px;
 			height: 428px;
@@ -201,6 +169,8 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			z-index: 1;
+
+			// border: 1px solid green;
 		}
 	}
 
@@ -210,7 +180,7 @@
 		&::before {
 			content: "";
 			position: absolute; 
-			top: 776px;
+			top: 586px;
 			left: 76px;
 			width: 247px;
 			height: 402px;
@@ -218,12 +188,14 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			z-index: 1;
+
+			// border: 1px solid green;
 		}
 
 		&::after {
 			content: "";
 			position: absolute; 
-			top: 700px;
+			top: 510px;
 			right: 10px;
 			width: 411px;
 			height: 318px;
@@ -231,82 +203,79 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			z-index: 1;
+
+			// border: 1px solid green;
 		}
 	}
 
-	// .stars-item__bg-top {
-	// 	position: relative;
+	.stars-item__bg-top {
+		position: relative;
 
-	// 	&::before {
-	// 		content: "";
-	// 		position: absolute; 
-	// 		top: -1120px;
-	// 		left: -36px;
-	// 		width: 335px;
-	// 		height: 1139px;
-	// 		// transform: rotateY(180deg);
-	// 		background-image: url("./../img/bg/tabl-bg_astro-left_02.svg");
-	// 		background-repeat: no-repeat;
-	// 		background-size: cover;
+		&::before {
+			content: "";
+			position: absolute; 
+			top: -1320px;
+			left: -36px;
+			width: 335px;
+			height: 1139px;
+			background-image: url("./../img/bg/tabl-bg_astro-left_02.svg");
+			background-repeat: no-repeat;
+			background-size: cover;
 
-	// 		// border: 1px solid red;
-	// 	}
-	// }
+			// border: 1px solid red;
+		}
+	}
 
-	// .stars-items {
-	// 	height: 900px;
+	.stars-items {
+		height: 700px;
 
-	// 	&::before {
-	// 		top: 159px;
-	// 		left: -36px;
-	// 		width: 339px;
-	// 		height: 729px;
-	// 		background-image: url("./../img/bg/tabl-bg_astro-left_03.svg");
+		&::before {
+			top: 0;
+			left: -36px;
+			width: 339px;
+			height: 729px;
+			background-image: url("./../img/bg/tabl-bg_astro-left_03.svg");
 			
-	// 		// border: 1px solid red;
-	// 	}
+			// border: 1px solid red;
+		}
 
-	// 	&::after {
-	// 		top: -610px;
-	// 		right: -36px;
-	// 		width: 345px;
-	// 		height: 1180px;
-	// 		background-image: url("./../../img/bg/bg_astro\ 01\ right.jpg");
+		&::after {
+			top: -610px;
+			right: -36px;
+			width: 345px;
+			height: 1180px;
+			background-image: url("./../img/bg/bg_astro\ 01\ right.jpg");
 
-	// 		// border: 1px solid red;
-	// 	}
-	// }
+			// border: 1px solid red;
+		}
+	}
 
-	// .stars-items__linears {
+	.stars-items__linears {
 
-	// 	&::before,
-	// 	&::after {
-	// 		content: none;
-	// 	}
+		&::before,
+		&::after {
+			content: none;
+		}
+	}
 
-	// 	// &::after {
-	// 	// 	content: none;
-	// 	// }
-	// }
+	.stars-items__icons {
+    position: relative;
 
-	// .stars-items__icons {
-    // position: relative;
+		&::before {
+			content: none;
+		}
 
-	// 	&::before {
-	// 		content: none;
-	// 	}
+		&::after {
+			top: -56px;
+			left: 32%;
+			width: 384px;
+			height: 248px;
+			background-image: url("./../../img/icons/stars-tabl.svg");
+			z-index: 1;
 
-	// 	&::after {
-	// 		top: 130px;
-	// 		left: 32%;
-	// 		width: 384px;
-	// 		height: 248px;
-	// 		background-image: url("./../../img/icons/stars-tabl.svg");
-	// 		z-index: 1;
-
-	// 		// border: 1px solid red;
-	// 	}
-	// }
+			// border: 1px solid red;
+		}
+	}
 }
 
 @media (max-width: 930px) {
@@ -321,7 +290,7 @@
 			background-image: url("./../img/bg/mob-bg_astro-left_02.svg");
 			
 
-			border: 1px solid red;
+			// border: 1px solid red;
 		}
 
 		&::after { 
@@ -331,7 +300,7 @@
 			height: 1066px;
 			background-image: url("./../img/bg/mob-bg_astro-right_02.svg");
 
-			border: 1px solid blue;
+			// border: 1px solid red;
 		}
 	}
 
@@ -347,17 +316,8 @@
 		}
 	}
 
-	// .stars-item__bg-top,
-	// .stars-items__icons {
-
-	// 	&::before,
-	// 	&::after {
-	// 		content: none;
-	// 	}
-	// }
-
 	.stars-items {
-		height: 3000px;
+		height: 2290px;
 		
 		&::before {
 			top: -650px;
@@ -366,7 +326,7 @@
 			height: 729px;
 			background-image: url("./../img/bg/mob-bg_astro-left_03.svg");
 			
-			border: 1px solid green;
+			// border: 1px solid red;
 			
 		}
 
