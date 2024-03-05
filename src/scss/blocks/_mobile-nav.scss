@@ -16,8 +16,25 @@
 }
 
 .nav-btn__close {
+    width: 55px;
     height: 55px;
     background-color: var(--menu-bg);
+
+
+    &:hover {
+        opacity: 1;
+    }
+
+    border: 1px solid red;
+}
+
+.img-cross {
+    width: 31px;
+    height: 31px;
+    margin: 0 auto;
+    background-image: url('./../img/icons/cross.svg');
+    background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .mobile-nav__list {

@@ -127,6 +127,9 @@
 			width: 344px;
 			height: 109px;
 			background-image: url("./../img/icons/ph-tabl.svg");
+			z-index: 2;
+
+			border: 1px solid red;
 		}
 
 		&::after {
@@ -135,6 +138,7 @@
 			width: 410px;
 			height: 1553px;
 			background-image: url("./../img/bg/tabl-bg_astro-right_02.svg");
+			z-index: 1;
 
 			// border: 1px solid red;
 		}
@@ -153,7 +157,7 @@
 			background-image: url("./../img/icons/tabl-ellips_ph-left.svg");
 			background-repeat: no-repeat;
 			background-size: cover;
-			z-index: 1;
+			z-index: 2;
 
 			// border: 1px solid green;
 		}
@@ -168,7 +172,7 @@
 			background-image: url("./../img/icons/tabl-ellips_ph-left.svg");
 			background-repeat: no-repeat;
 			background-size: cover;
-			z-index: 1;
+			z-index: 2;
 
 			// border: 1px solid green;
 		}
@@ -187,7 +191,7 @@
 			background-image: url("./../img/icons/tabl-stars_ph-left.svg");
 			background-repeat: no-repeat;
 			background-size: cover;
-			z-index: 1;
+			z-index: 2;
 
 			// border: 1px solid green;
 		}
@@ -202,7 +206,7 @@
 			background-image: url("./../img/icons/tabl-stars_ph-right.svg");
 			background-repeat: no-repeat;
 			background-size: cover;
-			z-index: 1;
+			z-index: 2;
 
 			// border: 1px solid green;
 		}
@@ -240,21 +244,31 @@
 		}
 
 		&::after {
-			top: -610px;
+			top: -784px;
 			right: -36px;
 			width: 345px;
-			height: 1180px;
-			background-image: url("./../img/bg/bg_astro\ 01\ right.jpg");
+			height: 1335px;
+			background-image: url("./../img/bg/tabl-bg_astro-right_03.svg");
+			
 
-			// border: 1px solid red;
+			border: 1px solid red;
 		}
 	}
 
 	.stars-items__linears {
 
-		&::before,
-		&::after {
+		&::before {
 			content: none;
+		}
+
+		&::after {
+			top: 232px;
+			right: -36px;
+			width: 347px;
+			height: 319px;
+			background-image: url("./../img/bg/tabl-bg_linear-top_astro-right_02.svg");
+
+			// border: 1px solid green;
 		}
 	}
 
@@ -270,7 +284,7 @@
 			left: 32%;
 			width: 384px;
 			height: 248px;
-			background-image: url("./../../img/icons/stars-tabl.svg");
+			background-image: url("./../img/icons/stars-tabl.svg");
 			z-index: 1;
 
 			// border: 1px solid red;
@@ -337,7 +351,7 @@
 			height: 158px;
 			background-image: url("./../img/icons/stars-mob.svg");
 
-			border: 1px solid red;
+			// border: 1px solid red;
 		}
 	}
 }
