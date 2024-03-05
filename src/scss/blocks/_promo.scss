@@ -260,6 +260,11 @@ h1 {
     .download-btns {
         flex-direction: row;
         gap: 12px;
+
+        &::before,
+        &::after {
+            content: none;
+        }
     }
 
     .download-btn {

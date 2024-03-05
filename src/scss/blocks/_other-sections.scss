@@ -234,76 +234,151 @@
 		}
 	}
 
-	.stars-item__bg-top {
-		position: relative;
+	// .stars-item__bg-top {
+	// 	position: relative;
+
+	// 	&::before {
+	// 		content: "";
+	// 		position: absolute; 
+	// 		top: -1120px;
+	// 		left: -36px;
+	// 		width: 335px;
+	// 		height: 1139px;
+	// 		// transform: rotateY(180deg);
+	// 		background-image: url("./../img/bg/tabl-bg_astro-left_02.svg");
+	// 		background-repeat: no-repeat;
+	// 		background-size: cover;
+
+	// 		// border: 1px solid red;
+	// 	}
+	// }
+
+	// .stars-items {
+	// 	height: 900px;
+
+	// 	&::before {
+	// 		top: 159px;
+	// 		left: -36px;
+	// 		width: 339px;
+	// 		height: 729px;
+	// 		background-image: url("./../img/bg/tabl-bg_astro-left_03.svg");
+			
+	// 		// border: 1px solid red;
+	// 	}
+
+	// 	&::after {
+	// 		top: -610px;
+	// 		right: -36px;
+	// 		width: 345px;
+	// 		height: 1180px;
+	// 		background-image: url("./../../img/bg/bg_astro\ 01\ right.jpg");
+
+	// 		// border: 1px solid red;
+	// 	}
+	// }
+
+	// .stars-items__linears {
+
+	// 	&::before,
+	// 	&::after {
+	// 		content: none;
+	// 	}
+
+	// 	// &::after {
+	// 	// 	content: none;
+	// 	// }
+	// }
+
+	// .stars-items__icons {
+    // position: relative;
+
+	// 	&::before {
+	// 		content: none;
+	// 	}
+
+	// 	&::after {
+	// 		top: 130px;
+	// 		left: 32%;
+	// 		width: 384px;
+	// 		height: 248px;
+	// 		background-image: url("./../../img/icons/stars-tabl.svg");
+	// 		z-index: 1;
+
+	// 		// border: 1px solid red;
+	// 	}
+	// }
+}
+
+@media (max-width: 930px) {
+	.ph-items {
+		height: 1137px;
 
 		&::before {
-			content: "";
-			position: absolute; 
-			top: -1120px;
-			left: -36px;
-			width: 335px;
-			height: 1139px;
-			// transform: rotateY(180deg);
-			background-image: url("./../img/bg/tabl-bg_astro-left_02.svg");
-			background-repeat: no-repeat;
-			background-size: cover;
+			top: 50px;
+			left: -17px;
+			width: 197px;
+			height: 1137px;
+			background-image: url("./../img/bg/mob-bg_astro-left_02.svg");
+			
 
-			// border: 1px solid red;
+			border: 1px solid red;
+		}
+
+		&::after { 
+			top: 20px;
+			right: -17px;
+			width: 221px;
+			height: 1066px;
+			background-image: url("./../img/bg/mob-bg_astro-right_02.svg");
+
+			border: 1px solid blue;
 		}
 	}
+
+	.ph-items__linears,
+	.ph-items__ellipses,
+	.ph-items__stars,
+	.stars-item__bg-top,
+	.stars-items__icons {
+
+		&::before,
+		&::after {
+			content: none;
+		}
+	}
+
+	// .stars-item__bg-top,
+	// .stars-items__icons {
+
+	// 	&::before,
+	// 	&::after {
+	// 		content: none;
+	// 	}
+	// }
 
 	.stars-items {
-		height: 900px;
-
+		height: 3000px;
+		
 		&::before {
-			top: 159px;
-			left: -36px;
-			width: 339px;
+			top: -650px;
+			left: -17px;
+			width: 215px;
 			height: 729px;
-			background-image: url("./../img/bg/tabl-bg_astro-left_03.svg");
+			background-image: url("./../img/bg/mob-bg_astro-left_03.svg");
 			
-			// border: 1px solid red;
+			border: 1px solid green;
+			
 		}
 
 		&::after {
-			top: -610px;
-			right: -36px;
-			width: 345px;
-			height: 1180px;
-			background-image: url("./../../img/bg/bg_astro\ 01\ right.jpg");
+			top: 1378px;
+			left: 39px;
+			width: 245px;
+			height: 158px;
+			background-image: url("./../img/icons/stars-mob.svg");
 
-			// border: 1px solid red;
-		}
-	}
-
-	.stars-items__linears {
-
-		&::before {
-			content: none;
-		}
-
-		&::after {
-			content: none;
-		}
-	}
-
-	.stars-items__icons {
-    position: relative;
-
-		&::before {
-			content: none;
-		}
-
-		&::after {
-			top: 130px;
-			left: 32%;
-			width: 384px;
-			height: 248px;
-			background-image: url("./../../img/icons/stars-tabl.svg");
-			z-index: 1;
-
-			// border: 1px solid red;
+			border: 1px solid red;
 		}
 	}
 }
+

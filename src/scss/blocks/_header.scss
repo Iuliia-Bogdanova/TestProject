@@ -158,15 +158,15 @@ li {
 
         &::before { 
             top: -50px;
-            left: 0;
+            left: -17px;
             width: 160px;
-            height: 800px;
+            height: 1137px;
             background-image: url("./../img/bg/mob-bg_astro-left_01.svg") ;
         }
 
         &::after { 
             top: -12px;
-            right: 0;
+            right: -17px;
             width: 133px;
             height: 886px;
             background-image: url("./../img/bg/mob-bg_astro-right_01.svg");
