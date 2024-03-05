@@ -1,5 +1,7 @@
-Gulp, HTML, SCSS, JS
-Figma, PixelPerfect 
+Gulp, HTML, SCSS, JS  
+
+Figma, PixelPerfect  
+
 Desktop-first adaptive 1440px, 930px, 360px
 
 https://test-project-mocha-tau.vercel.app/
