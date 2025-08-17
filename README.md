@@ -10,13 +10,16 @@ https://www.figma.com/file/pMAizCVz391A8Wm9i07qP6/Untitled?type=design&node-id=0
 
 
 
+
 Starting Monday, September 1st, 2025, Node.js 18 will no longer be supported on Vercel. Additionally, the legacy build image associated with Node.js 18 will also be deprecated.
 
 This change impacts all projects – including Python and Ruby builds – that have their Node.js version set to 18. Upgrading to Node.js 22 ensures your builds utilize the latest build image, continue to receive security updates, and avoid potential errors.
 
 Your account is associated with the following projects using Node.js 18:
 
-test-project
+test-project  
+
+
 How to upgrade
 Team Owners and Members can upgrade all deprecated projects with a single click from the Vercel Dashboard. Alternatively, you can upgrade individual projects on the Build and Deployment page in your Vercel Project Settings.
 
